@@ -29,14 +29,14 @@ In this flow, we assume you have registered 2 users with the nicknames
 Let\'s start:
 
 
-![](./readme_assets/image5.png)
+![](./ReadmeAssets/image5.png)
 
 ## Login
 
 If the user does not exist, they will be added to the users collection
 in MongoDB.
 
-![](./readme_assets/image6.png)
+![](./ReadmeAssets/image6.png)
 
 ## Edit profile
 
@@ -48,7 +48,7 @@ and update the file reference for the profile image in the database\'s
 user collection. After clicking OK in the dialog, the new profile
 image will be displayed.
 
-![](./readme_assets/image7.png)
+![](./ReadmeAssets/image7.png)
 
 ## To start a new personal chat with another user
 
@@ -60,7 +60,7 @@ This will create a new chat entity in the chats collection in the
 database. Any messages sent or received later will be associated with
 the chat entity.
 
-![](./readme_assets/image16.png)
+![](./ReadmeAssets/image16.png)
 
 ## Sending a Message
 
@@ -78,7 +78,7 @@ This will:
 2.  Update the relevant chat entity in the chats collection with a
     preview snippet of the message.
 
-![](./readme_assets/image11.png)
+![](./ReadmeAssets/image11.png)
 
 ## Starting a New Group Chat
 
@@ -94,59 +94,59 @@ This will create a new chat entity in the database, similarly to
 starting a regular chat. The difference is that the chat type will be
 set to \"Group\" instead of \"User\".
 
-![](./readme_assets/image3.png)
+![](./ReadmeAssets/image3.png)
 
 ## A demo with a personal chat and a group 🙂
 
-![](./readme_assets/image2.png)
+![](./ReadmeAssets/image2.png)
 
 # Let\'s publish
 
 Sharing a folder provides a UNC path that can be used later. Let\'s
 share a folder so that published content will be accessible there.
 
-![](./readme_assets/image22.png)
+![](./ReadmeAssets/image22.png)
 
-![](./readme_assets/image20.png)
+![](./ReadmeAssets/image20.png)
 
 After sharing a folder, the full UNC path is visible. Let\'s save that
 path for use soon when publishing.
 
-![](./readme_assets/image13.png)
+![](./ReadmeAssets/image13.png)
 
 Now that we\'ve shared a folder, we can return to Visual Studio and
 publish.
 
 The shared folder will be our publish target.
 
-![](./readme_assets/image4.png)
+![](./ReadmeAssets/image4.png)
 
-![](./readme_assets/image14.png)
+![](./ReadmeAssets/image14.png)
 
 Let\'s use the UNC path that we previously extracted as the publish
 location.
 
-![](./readme_assets/image18.png)
+![](./ReadmeAssets/image18.png)
 
 again...
 
-![](./readme_assets/image8.png)
+![](./ReadmeAssets/image8.png)
 
-![](./readme_assets/image12.png)
+![](./ReadmeAssets/image12.png)
 
 The product name will be used as the name for the desktop shortcut.
 
-![](./readme_assets/image23.png)
+![](./ReadmeAssets/image23.png)
 
-![](./readme_assets/image21.png)
+![](./ReadmeAssets/image21.png)
 
-![](./readme_assets/image19.png)
+![](./ReadmeAssets/image19.png)
 
-![](./readme_assets/image9.png)
+![](./ReadmeAssets/image9.png)
 
-![](./readme_assets/image10.png)
+![](./ReadmeAssets/image10.png)
 
-![](./readme_assets/image15.png)
+![](./ReadmeAssets/image15.png)
 
 A new shortcut for the product will appear on the desktop after
 publishing
@@ -154,4 +154,4 @@ publishing
 If a new version is published later, a prompt will appear when launching
 to try to update.
 
-![](./readme_assets/image1.png)
+![](./ReadmeAssets/image1.png)
