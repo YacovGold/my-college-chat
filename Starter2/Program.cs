@@ -9,7 +9,3 @@ namespace Starter2
         }
     }
 }
-
-
-//1.group
-//2.pdf(2 - e) - picture screenshot(use case) -> mongodb - whatt changed
